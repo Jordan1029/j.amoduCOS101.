@@ -3,7 +3,7 @@ use std::io;
 fn main() {
     let input = io::stdin();
 
-    let mut x:i32 = 0;
+    let mut x:f32 = 0.00;
 
     println!("Da_Cybercafe");
 
@@ -27,15 +27,15 @@ fn main() {
         let chow = chow.trim();
 
         if chow == "P"{
-            x += 3200;
+            x += 3200.0;
         }else if chow == "F"{
-            x += 3000;
+            x += 3000.0;
         }else if chow == "A"{
-            x += 2500; 
+            x += 2500.0; 
         }else if chow == "E"{
-            x += 2000;
+            x += 2000.0;
         }else if chow == "W"{
-            x += 2500;
+            x += 2500.0;
         }else if chow == "O"{
             break;
         }else {
@@ -45,12 +45,12 @@ fn main() {
         }
     }
 
-    println!("Senior man theres promo because you spent: {}",x);
+    println!("theres promo because you spent: {}",x);
 
-    if x > 10_000 {
-        let discount = x - ((5/100)*x);
+    if x > 10_000.0 {
+        let discount:f32 = x * 0.95;
 
-        println!("Your bill is now {} Dash me the change",discount);
+        println!("Your bill is now {}",discount);
     } else {
         println!("Your bill is: N{}",x );
     }
