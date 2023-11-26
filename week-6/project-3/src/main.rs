@@ -14,7 +14,7 @@ fn main() {
     for i in 1..=n {
         for j in 1..=20 {
             let result = i * j;
-            println!("Here is the time table {} x {} = {}", i, j, result);
+            println!("{} x {} = {}", i, j, result);
         }
         println!(); // Add a newline between each multiplication table 
     }
