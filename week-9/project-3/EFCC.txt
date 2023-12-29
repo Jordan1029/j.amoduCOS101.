@@ -1,0 +1,9 @@
+		INFORMATION SERVICE DEPARTMENT
+		------------------------
+
+NAMES		|MINISTRY		|ZONE
+Aigbogun Alamba Daudu	|Internal Affairs	|South west
+Murtala Afeez Bendu	| Justice	| North Eat
+Okorocha Calistus Ogbona	| Defense	|South South
+Adewale Jimoh Akanbi	|Power and Steel		|South West
+Osazuwa Faith Etieye,	|Petroleum	|South East
