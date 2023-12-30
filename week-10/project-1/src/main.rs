@@ -1,4 +1,4 @@
-// Define a struct for laptop brands
+//a struct for laptop brands
 struct Laptop {
     brand: String,
     price: f64,
@@ -13,7 +13,6 @@ impl Laptop {
 }
 
 fn main() {
-    // Create instances of the Laptop struct for each brand
     let hp_laptop = Laptop {
         brand: String::from("HP"),
         price: 650000.0,
@@ -42,8 +41,6 @@ fn main() {
 
     // Calculate the overall total cost
     let overall_total_cost = total_cost_hp + total_cost_ibm + total_cost_toshiba + total_cost_dell;
-
-    // Print the results
     println!("Total cost for HP laptops: {}", total_cost_hp);
     println!("Total cost for IBM laptops: {}", total_cost_ibm);
     println!("Total cost for Toshiba laptops: {}", total_cost_toshiba);
